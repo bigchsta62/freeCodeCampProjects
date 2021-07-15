@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #main {
+    width: 90%; /*container-width*/
+    overflow: hidden; /*hide bounds of image */
+  }
+  #content {
+    width: 90%; /*container-width*/
+  }
+  .jumbotron {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  #img-div {
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* User Story #9: The img element should be centered within its parent element. Once you're done, submit the URL to your working project with all its tests passing. */
+    justify-content: center;
+  }
+  img {
+    display: block;
+    height: auto;
+    /* User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. */
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+  }
+  #tribute-info {
+    margin-top: 30px;
+  }
+  
